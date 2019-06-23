@@ -28,3 +28,4 @@
   yum:
     name: "{{ sensu_package }}"
     state: "{{ sensu_pkg_state }}"
+    use_backend: yum
